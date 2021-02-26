@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+.body{
+    max-width: 500px;
+    min-height: 100vh;
+}
+
+.container{
+    padding-top:5px;
+}
+
+
