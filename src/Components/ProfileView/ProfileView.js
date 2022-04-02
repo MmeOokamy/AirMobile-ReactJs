@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { Card, Button, ListGroup} from 'react-bootstrap';
 
+
 import Switch from "react-switch";
 
 const ProfileView = () => {
@@ -16,6 +17,15 @@ const ProfileView = () => {
     const handleChangeV = nextChecked => {
       setCheckedVibr(nextChecked);
     }; 
+
+    const noButton =()=> {
+      const rech = JSON.parse(localStorage.getItem("recherche"));
+      if (rech === null){
+        return 'disabled'
+      }
+
+    }
+    
 
   return (<>
     
@@ -56,7 +66,7 @@ const ProfileView = () => {
                     </ListGroup.Item>
                 </ListGroup>
               <Card.Footer>
-                  <Button  href="/reservation">Mes Reservations</Button>
+                  <Button disabled={noButton()}  href="/reservation" >Mes Reservations</Button>
               </Card.Footer>
               </Card.Body>
             </Card>

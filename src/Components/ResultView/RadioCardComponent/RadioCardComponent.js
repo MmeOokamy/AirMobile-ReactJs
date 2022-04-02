@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import css from "./RadioCardComponent.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserFriends, faChild, faPlaneDeparture, faPlaneArrival } from '@fortawesome/free-solid-svg-icons';

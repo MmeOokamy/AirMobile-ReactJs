@@ -8,7 +8,7 @@ class Navigation extends Component {
   render() {
     return (
       <Navbar className={css.spacer} bg="light" expand="lg">
-          <Navbar.Brand href="/">Air Mobile</Navbar.Brand>
+          <Navbar.Brand href="/">Spectre AirLines</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
