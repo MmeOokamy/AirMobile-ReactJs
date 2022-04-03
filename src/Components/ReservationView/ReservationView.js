@@ -68,7 +68,7 @@ const ReservationView =() => {
           : 
             <>
               <span>Payer</span><br />
-              <Button variant="danger" onClick={purge} href="/">Annuler la reservation?</Button>
+              <Button variant="danger" onClick={purge} href="/air_mobile">Annuler la reservation?</Button>
             </>
         }</p>
         

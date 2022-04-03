@@ -55,7 +55,6 @@ const ResultView = () => {
     console.log(name +""+ value);
     
   };
-  
 
   return (<>
 

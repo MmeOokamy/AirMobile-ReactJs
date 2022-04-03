@@ -13,7 +13,7 @@ const AlertPopUp = () => {
         </p>
         <hr />
         <div className="d-flex justify-content-end">
-          <Button onClick={() => setShow(false)} variant="outline-success" href="reservation">
+          <Button onClick={() => setShow(false)} variant="outline-success" href="/air_mobile/reservation">
             Continuer
           </Button>
         </div>

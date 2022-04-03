@@ -11,15 +11,15 @@ import PopUp from "../ResultView/AlertPopUp";
 import {Route, BrowserRouter as Router} from "react-router-dom";
 
 
-function App() {
 
+function App() {
 // localStorage.removeItem("recherche");
 // localStorage.removeItem("choix");
   return (
 
     <Container className={css.body}> 
       <NavBar />
-      <Router>
+      <Router basename='/air_mobile'>
           <Route path="/" exact component={Search} />
           <Route path="/result" component={ResultView} />
           <Route path="/reservation" component={ReservationView} />
